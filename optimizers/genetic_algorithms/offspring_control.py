@@ -1,5 +1,6 @@
-import numpy as numpy
+import numpy as np
 import pandas as pd
+from .chromossomes import *
 
 def gerenerate_population(population_size=20,mutation_rate=0.03,
                           population_description={"var_1":{"sequence_len":10,"max_bound":10,"lower_boud":0,"type":"int"}}):
